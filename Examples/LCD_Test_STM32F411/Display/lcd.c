@@ -21,6 +21,14 @@
 // scl pin  -> pa5
 // sdo pin -> pa6
 // sda pin -> pa7
+// bl pin -> pa3
+
+// xpt2046
+// tpen pin  -> pb10
+// tcs pin   -> pb12
+// tsck pin  -> pb13
+// tmiso pin -> pb14
+// tmosi pin -> pb15
 
 #define LCD_CS_CLR HAL_GPIO_WritePin(DIS_CS_GPIO_Port, DIS_CS_Pin, GPIO_PIN_RESET)
 #define LCD_CS_SET HAL_GPIO_WritePin(DIS_CS_GPIO_Port, DIS_CS_Pin, GPIO_PIN_SET)
